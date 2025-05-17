@@ -16,9 +16,10 @@ public class Personnage {
 	}
 
 	public String getNom() {
-		return nom;
+		str a = "bite";
+		return a;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "[nom=" + nom + ", force=" + force + "]";
